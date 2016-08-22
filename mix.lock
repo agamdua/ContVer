@@ -1,0 +1,2 @@
+%{"yamerl": {:hex, :yamerl, "0.3.2", "9eac1537d251e926f47763ab1db0d9e6e8f2397646c290d58aa6ceebc6832fb7", [:rebar3], []},
+  "yaml_elixir": {:hex, :yaml_elixir, "1.2.0", "6b7a1d82f00d536831f5f1dfa2aad4f71138059336e513efefdb5f9c20ddb281", [:mix], []}}
