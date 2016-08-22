@@ -68,21 +68,22 @@ This application is being shipped:
 
 ```yaml
 # .release.yml
-- major:
-  - type: int
-  - semantics: year
-  - format: YY
+- semantics:
+  - major:
+    - type: int
+    - semantics: year
+    - format: YY
 
-- iteration:
-  - type: int
-  - semantics: month
-  - format: MM
+  - iteration:
+    - type: int
+    - semantics: month
+    - format: MM
 
-- release:
-  - type: int
+  - release:
+    - type: int
 
-- dep:
-  - type: int
+  - dep:
+    - type: int
 
 - dependencies:
   - service1:
