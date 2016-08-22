@@ -1,0 +1,22 @@
+- semantics:
+  - major:
+    - type: int
+    - semantics: year
+    - format: YY
+
+  - iteration:
+    - type: int
+    - semantics: month
+    - format: MM
+
+  - release:
+    - type: int
+
+  - dep:
+    - type: int
+
+- dependencies:
+    - service1:
+      - version: 1.2.1 
+      - repo_url: xyz.git
+      - optional: false
